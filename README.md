@@ -104,7 +104,7 @@ To run the unit tests for the backend:
 cd .. # go back to the project root
 pytest ./Test/backend/
 
-## License
+## LICENSE
 
 This project is licensed under the MIT License.
     
