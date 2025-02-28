@@ -13,22 +13,22 @@ This project is a full-stack expense tracking application built using Python, My
 ## Project Structure
 
 project-expense-tracking/
-├── Backend/
-│   ├── db_helper.py        # Database interaction logic
-│   ├── server.py           # FastAPI application
-│   └── .env                # Environment variables (database credentials) - DO NOT COMMIT
-├── Frontend/
-│   └── app.py              # Streamlit application
-├── Test/
-│   └── backend/
-│       ├── test_db_helper.py # Unit tests
-│       └── conftest.py       # pytest configuration
-├── Database/
-│   ├── expenses_db_creation.sql # SQL script to create the database schema
-│   └── expenses_db.csv         # Sample expense data (optional)
-├── .gitignore              # Files to ignore in Git
-├── requirements.txt        # Project dependencies
-└── README.md               # Project documentation (this file)
+  * Backend/
+        db_helper.py        # Database interaction logic
+        server.py           # FastAPI application
+        .env                # Environment variables (database credentials) - DO NOT COMMIT
+  * Frontend/
+        app.py              # Streamlit application
+  * Test/
+       backend/
+         test_db_helper.py # Unit tests
+       conftest.py       # pytest configuration
+  * Database/
+         expenses_db_creation.sql # SQL script to create the database schema 
+         expenses_db.csv         # Sample expense data (optional)
+  * .gitignore              # Files to ignore in Git
+  *  requirements.txt        # Project dependencies
+  *  README.md               # Project documentation (this file)
 
 ## Setup Instructions
 
@@ -76,7 +76,7 @@ project-expense-tracking/
         MYSQL_DATABASE=expense_manager
         ```
 
-    * **Important:** Never commit your `.env` file to GitHub!
+   
 
 6.  **Run the Backend (FastAPI):**
 
@@ -104,8 +104,6 @@ To run the unit tests for the backend:
 cd .. # go back to the project root
 pytest ./Test/backend/
 
-## LICENSE
 
-This project is licensed under the MIT License.
     
     
